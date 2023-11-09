@@ -41,7 +41,18 @@ menu "Audio Codec Device Configuration"
         default y
         help
             Enable this option to support codec ES8388.
-
+     config CODEC_ES7148_SUPPORT
+        bool "Support ES7148 Codec Chip"
+        default y
+        help
+            Enable this option to support codec ES8388.
+    
+    config CODEC_ES7148_SUPPORT
+        bool "Support ES7148 Codec Chip"
+        default y
+        help
+            Enable this option to support codec ES8388.
+    
     config CODEC_TAS5805M_SUPPORT
         bool "Support TAS5805M Codec Chip"
         default y
